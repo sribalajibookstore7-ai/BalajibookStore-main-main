@@ -26,10 +26,10 @@ function Header() {
             <Link to="/">Home</Link>
           </li>
           <li className='opacity-80 text-xl hover:opacity-100 hover:transition hover:duration-700 hover:ease-in-out'>
-            <Link to="/login">Perfil</Link>
+            <Link to="/login">Profile</Link>
           </li>
           <li className='opacity-80 text-xl hover:opacity-100 hover:transition hover:duration-700 hover:ease-in-out'>
-            <Link to="/cart">Carrinho</Link>
+            <Link to="/cart">Cart</Link>
           </li>
         </ul>
       </nav>
@@ -44,10 +44,10 @@ function Header() {
             <Link to="/">Home</Link>
           </li>
           <li className='opacity-80 text-xl hover:opacity-100 hover:transition hover:duration-700 hover:ease-in-out'>
-            <Link to="/login">Perfil</Link>
+            <Link to="/login">Profile</Link>
           </li>
           <li className='opacity-80 text-xl hover:opacity-100 hover:transition hover:duration-700 hover:ease-in-out'>
-            <Link to="/cart">Carrinho</Link>
+            <Link to="/cart">Cart</Link>
           </li>
         </ul>
       </nav>

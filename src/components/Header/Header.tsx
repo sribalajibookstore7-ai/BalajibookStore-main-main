@@ -15,7 +15,7 @@ function Header() {
       className='flex justify-between w-full items-center'
       >
       <h1 className='sm:text-sm md:text-xl lg:text-2xl'>
-        Bem vindo à <span className="gradient-hover">Sri Balaji Book Stores!</span>
+        Welcome to <span className="gradient-hover">Sri Balaji Book Stores!</span>
       </h1>
       { isMobile && <BasicMenu/>}
       { isTablet && 

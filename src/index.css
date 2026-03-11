@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Estilo inicial: texto normal */
+.gradient-hover {
+  cursor: default;
+  color: inherit;
+  background: linear-gradient(270deg, #ff6ec4, #7873f5, #4ecdc4);
+  background-size: 400% 400%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  transition: all 0.3s ease;
+}
+
+/* Hover: ativa o degradê animado */
+.gradient-hover:hover {
+  color: transparent;
+  -webkit-text-fill-color: transparent; /* Safari fix */
+  animation: gradientShift 5s ease infinite;
+}

@@ -37,7 +37,7 @@ function Home() {
     <section className="w-full h-full flex flex-col items-center justify-center">
       <Banner/>
       <div className="text-center p-6">
-        <h2 className="gradient-hover text-4xl font-bold p-2">Browse the items that are in our inventory!
+        <h2 className="gradient-hover text-4xl font-bold p-2"> Browse the items that are in our inventory!
       <div className="container p-4 mb-4 w-full max-w-7xl">
         {error && <p className="text-red-600 mb-4">{error}</p>}
         
